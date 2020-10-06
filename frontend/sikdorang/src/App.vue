@@ -41,12 +41,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .router-view {
   margin-bottom: 100px;
 }
 .maxi-size {
-  width: 600px;
+  width: 600px !important;
   min-height: 100vh;
 }
 </style>

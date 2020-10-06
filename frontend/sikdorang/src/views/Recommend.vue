@@ -57,6 +57,7 @@ export default {
 <style scoped>
 /* @import url('https://fonts.googleapis.com/css?family=Roboto:700'); */
 .con{
+  max-width: 600px;
   width : 100vw;
   height : 20vh;
 }
@@ -66,7 +67,7 @@ export default {
   font-size:30px;
   font-weight:bold;
   /* padding-top:200px;   */
-  position:fixed;
+  /* position:fixed; */
   width:100%;
   bottom :70%;
   display:block;
