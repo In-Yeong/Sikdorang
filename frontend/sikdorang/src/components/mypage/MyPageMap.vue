@@ -212,6 +212,7 @@ export default {
 				this.curPath.push(polyline)
 				polyline.setMap(map); 
 				var distance = Math.round(polyline.getLength());
+				console.log('set distance')
 				// var content = this.getTimeHTML(distance);
 				this.getTimeAction(distance);
 
